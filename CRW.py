@@ -28,3 +28,11 @@ print('----------------------------------')
 #Creating a Series
 s = pd.Series([1, 2, 3, 4, 5])
 print(s)
+
+print('----------------------------------')
+
+
+#Compairson: Series is a list and the DataFrame is a table
+
+u = pd.Series([30, 35, 45], index=['2015 Sales', '2026 Sales', '2017 Sales'], name='Product A')
+print(u)
