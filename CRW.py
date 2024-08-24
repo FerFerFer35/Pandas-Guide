@@ -36,3 +36,17 @@ print('----------------------------------')
 
 u = pd.Series([30, 35, 45], index=['2015 Sales', '2026 Sales', '2017 Sales'], name='Product A')
 print(u)
+
+
+#Reading data files
+#The file most common used is a CSV file.
+#The followning funtion is used to read a CSV file: pd.read_csv()
+
+#Example
+wineReviews = pd.read_csv('winemag-data-130k-v2.csv')
+print(wineReviews.shape)
+
+print('----------------------------------')
+
+#Examine the content of the resultant DataFrame using the head() command
+print(wineReviews.head())
